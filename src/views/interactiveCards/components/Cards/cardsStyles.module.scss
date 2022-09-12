@@ -1,0 +1,28 @@
+
+.cards{
+  background-image: url(./../../../../assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  position: relative;
+  .cards_cardBack{
+  background-image:url(./../../../../assets/bg-card-back.png);
+  width: 18rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+  background-size: cover;
+  position: absolute;
+  top: 2.5rem;
+  left: 4.5rem;
+  }
+  .cards_cardFront{
+  background-image:url(./../../../../assets/bg-card-front.png);
+  width: 18rem;
+  height: 10rem;
+  border-radius: 0.5rem;
+  background-size: cover;
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+  }
+}
