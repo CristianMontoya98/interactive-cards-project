@@ -1,44 +1,44 @@
 @import './../../../../scss/abstracts/variables';
 
-.cards{
+.cards {
   background-image: url(./../../../../assets/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 15rem;
-  .contentCards{
+  .contentCards {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
-  .cards_cardBack{
-    background-image:url(./../../../../assets/bg-card-back.png);
-    width: 18rem;
-    height: 10rem;
-    border-radius: 0.5rem;
-    background-size: cover;
-    position: absolute;
-    margin-top: 2.4rem;
-    margin-left: 3rem;
-    .cards_cardBackText{
-      display: flex;
-      align-items: center;
-      justify-content: end;
-      background: rgb(177, 184, 187);
-      height: 2rem;
-      width: 14.8rem;
-      margin-top: 4.1rem;
-      margin-left: 1.8rem;
-      border-radius: 0.2rem;
-      p{
-        color: $white;
-        font-size: 12px;
-        margin: 0;
-        padding-right: 0.5rem;
-        letter-spacing: 1px;
+    .cards_cardBack {
+      background-image:url(./../../../../assets/bg-card-back.png);
+      width: 18rem;
+      height: 10rem;
+      border-radius: 0.5rem;
+      background-size: cover;
+      position: absolute;
+      margin-top: 2.4rem;
+      margin-left: 3rem;
+      .cards_cardBackText {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        background: rgb(177, 184, 187);
+        height: 2rem;
+        width: 14.8rem;
+        margin-top: 4.1rem;
+        margin-left: 1.8rem;
+        border-radius: 0.2rem;
+        p {
+          color: $white;
+          font-size: 12px;
+          margin: 0;
+          padding-right: 0.5rem;
+          letter-spacing: 1px;
+        }
       }
     }
-  }
-  .cards_cardFront{
+  .cards_cardFront {
     background-image:url(./../../../../assets/bg-card-front.png);
     width: 18rem;
     height: 10rem;
@@ -48,17 +48,17 @@
     margin-top: 8.5rem;
     margin-right: 3.5rem;
     color: $white;
-    .cards_cardFrontCircles{
+    .cards_cardFrontCircles {
       display: flex;
       align-items: center;
       padding: 1.2rem;
-      .circle{
+      .circle {
         background: $white;
         height:2rem;
         width: 2rem;
         border-radius: 50%;
       }
-      .circleBorder{
+      .circleBorder {
         border: solid 1px $white;
         height:1rem;
         width: 1rem;
@@ -66,16 +66,16 @@
         margin-left: 0.5rem;
         }
       }
-      .cards_cardFrontText{
+      .cards_cardFrontText {
         margin-top: 1rem;
-        h4{
+        h4 {
           font-size: 18px;
           font-weight: normal;
           letter-spacing: 2px;
           text-align: center;
         }
       }
-      .cards_cardFrontLitteText{
+      .cards_cardFrontLitteText {
         display: flex;
         justify-content: space-between;
         font-size: 12px;

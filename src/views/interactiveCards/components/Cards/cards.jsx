@@ -1,7 +1,4 @@
 import styles from './cardsStyles.module.scss'
-import backgroundImg from './../../../../assets/bg-main-mobile.png';
-import cardImg from './../../../../assets/bg-card-back.png';
-import cardImg2 from './../../../../assets/bg-card-front.png';
 function Cards() {
 
   return (
@@ -25,7 +22,6 @@ function Cards() {
           <p>00/00</p>
         </div>
       </div>
-      
       </div>
     </section>
   )

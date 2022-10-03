@@ -1,0 +1,55 @@
+@import './../../../../scss/abstracts/variables';
+.formContainer {
+  margin-top: 2.5rem;
+  padding: 2rem;
+  font-size:8px;
+  font-weight: lighter;
+  color:$darkViolet;
+
+  input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid rgba(184, 182, 182, 0.432);
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    padding-left: 1rem;
+  }
+  input::placeholder {
+    color: rgba(158, 158, 158, 0.564);
+    font-weight: bolder;
+    font-family: $font;
+  }
+  .formContainer_control{
+    margin-top: 1rem;
+  }
+  .formContainer_control h2{
+    letter-spacing: 2px;
+  }
+  .formContainer_control input{
+    width: 100%;
+  }
+  .formContainer_dateGroup{
+    display: flex;
+    margin-top: 1rem;
+  }
+  .formContainer_dateGroup_shortControlGroup{
+    display: flex;
+  }
+  .formContainer_dateGroup_shortControlGroup input{
+    width: 4rem;
+    margin-right: 0.5rem;
+  }
+  .formContainer_dateGroup_CVC input{
+    width: 100%;
+  }
+  .formContainer_button{
+    background: $darkViolet;
+    border: none;
+    border-radius: 0.5rem;
+    color: $white;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 18px;
+    width: 100%;
+  }
+}
