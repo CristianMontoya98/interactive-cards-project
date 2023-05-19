@@ -1,0 +1,27 @@
+@import './../../../../../scss/abstracts/variables';
+.cards_cardBack {
+      background-image:url(./../../../../../assets/bg-card-back.png);
+      width: 18rem;
+      height: 10rem;
+      border-radius: 0.5rem;
+      background-size: cover;
+      transform: translate(30px, 40px);
+      .cards_cardBackText {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        background: rgb(177, 184, 187);
+        height: 2rem;
+        width: 14.8rem;
+        margin-top: 4.1rem;
+        margin-left: 1.8rem;
+        border-radius: 0.2rem;
+        p {
+          color: $white;
+          font-size: 12px;
+          margin: 0;
+          padding-right: 0.5rem;
+          letter-spacing: 1px;
+        }
+      }
+    }
