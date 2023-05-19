@@ -4,10 +4,10 @@ import { FormData } from './FormData/formData';
 function InteractiveCards() {
 
   return (
-    <>
+    <section className={styles.container}>
       <Cards />
       <FormData/>
-    </>
+    </section>
   )
 }
 
