@@ -7,13 +7,16 @@
   color:$darkViolet;
 
   input {
-  outline: none;
+    outline: none;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     border: 1px solid rgba(184, 182, 182, 0.432);
     border-radius: 0.5rem;
     height: 2.5rem;
     padding-left: 1rem;
+    color: $darkViolet;
+    font-weight: bold;
+    font-size: 15px;
   }
   input::placeholder {
     color: rgba(158, 158, 158, 0.564);
@@ -21,7 +24,6 @@
     font-family: $font;
   }
   input:focus{
-    
     border: 1px solid $darkViolet;
   }
   .formContainer_control{
