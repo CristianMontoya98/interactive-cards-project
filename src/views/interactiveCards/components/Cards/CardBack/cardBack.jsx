@@ -1,11 +1,11 @@
 import styles from './cardBackStyles.module.scss';
 
-function CardBack() {
+function CardBack({ cvc = '000' }) {
 
   return (
     <div className={styles.cards_cardBack}>
         <div className={styles.cards_cardBackText}>
-          <p>000</p>
+          <p>{cvc}</p>
         </div>
     </div>
   )
