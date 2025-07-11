@@ -1,11 +1,10 @@
 # 💳 Interactive Cards - Frontend mentor challenge
-🔗 
 This is the solution to the **[interactive cards](https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw)** challenge — a responsive React web app that updates a credit card preview in real-time as the user fills out the form.
 
 ## 🛠️ Tech stack
 
 - ⚛️ [React](https://reactjs.org/)
-- 💅 [Sass Modules]
+- 💅 Sass Modules
 
 ## ✨ Functionalities
 
