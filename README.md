@@ -16,7 +16,7 @@ This is the solution to the **[interactive cards](https://www.frontendmentor.io/
 ## ⚙️ Install and local use
 # 1. Clone the repository
 ```bash
-git clone https://github.com/CristianMontoya98/interactive-cards.git](https://github.com/CristianMontoya98/interactive-cards-project.git
+git clone https://github.com/CristianMontoya98/interactive-cards-project.git
 ```
 ```bash
 cd interactive-cards-project
